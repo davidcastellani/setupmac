@@ -17,9 +17,21 @@ applications:
   - terraform
   - htop
   - bash-completion
+  - vagrant-completion
+  - qemu
+  - fish
+  - aws-shell
+  - awscli
+  - openssl
+  - python3
+  - python
+  - xclip
+  - oath-toolkit
+
 
 # homebrew cask applications
 cask_applications:
+  - teamviewer
   - google-chrome
   - slack
   - iterm2
@@ -43,14 +55,18 @@ cask_applications:
   - rocket-chat
   - google-drive
   - google-photos-backup
+  - vagrant-manager
+  - vagrant
+  - font-hack
+  - font-hack-nerd-font-mono
+  - xquartz
 
-downloads:
-   zwift:
-     name: Zwift
-     url: http://cdn.zwift.com/app/ZwiftOSX.dmg
-     dest: "{{general.local_home}}/Downloads/ZwiftOSX.dmg"
-   suuntolink:
-     name: Suunto Movescount link
-     url: http://suuntolink.static.movescount.com/Suuntolink_installer.dmg
-     dest: "{{general.local_home}}/Downloads/Suuntolink_installer.dmg"
-
+# downloads:
+#    zwift:
+#      name: Zwift
+#      url: http://cdn.zwift.com/app/ZwiftOSX.dmg
+#      dest: "{{general.local_home}}/Downloads/ZwiftOSX.dmg"
+#    suuntolink:
+#      name: Suunto Movescount link
+#      url: http://suuntolink.static.movescount.com/Suuntolink_installer.dmg
+#      dest: "{{general.local_home}}/Downloads/Suuntolink_installer.dmg"
