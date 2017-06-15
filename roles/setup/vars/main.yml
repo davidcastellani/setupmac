@@ -27,6 +27,8 @@ applications:
   - python
   - xclip
   - oath-toolkit
+  - mackup
+  - docker-completion
 
 
 # homebrew cask applications
@@ -60,6 +62,8 @@ cask_applications:
   - font-hack
   - font-hack-nerd-font-mono
   - xquartz
+  - google-drive
+  - docker
 
 # downloads:
 #    zwift:
