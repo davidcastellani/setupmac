@@ -29,6 +29,7 @@ applications:
   - oath-toolkit
   - mackup
   - docker-completion
+  - colordiff
 
 
 # homebrew cask applications
@@ -64,7 +65,7 @@ cask_applications:
   - xquartz
   - google-drive
   - docker
-
+  - flux
 # downloads:
 #    zwift:
 #      name: Zwift
